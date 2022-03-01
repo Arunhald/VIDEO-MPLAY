@@ -2,7 +2,7 @@ import asyncio
 
 from pytgcalls import idle
 from pyrogram.types import Message
-from pyrogram.erros import BotInlineDisabled
+from pyrogram.errors import BotInlineDisabled
 
 from program import LOGS
 from config import BOT_USERNAME, OWNER_ID
