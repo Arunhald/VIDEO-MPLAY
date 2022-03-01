@@ -1,7 +1,7 @@
 import asyncio
 
 from pytgcalls import idle
-from pyrogram.types import Message
+from pyrogram.types import Message as message
 from pyrogram.errors import BotInlineDisabled
 
 from program import LOGS
